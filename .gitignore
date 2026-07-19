@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+genome_env/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Raw genome and phenotype data
+data/raw/genomes/*
+data/raw/phenotypes/*
+
+# Generated data
+data/processed/*
+
+# Saved models and report figures
+models/*
+reports/figures/*
+
+# Keep directory placeholders
+!data/raw/genomes/.gitkeep
+!data/raw/phenotypes/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!reports/figures/.gitkeep
+
+# Secrets
+.env
